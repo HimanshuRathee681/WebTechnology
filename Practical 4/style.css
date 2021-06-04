@@ -1,0 +1,33 @@
+*{
+	box-sizing: border-box;
+}
+
+#a{
+	width: 80px;
+	height: 80px;
+	border: 4px solid black;
+	border-radius: 2px;
+	background-color: #1144ff;
+	margin-left: 80px;
+}
+#b{
+	
+	 width: 80px;
+	height: 80px;
+	border: 4px solid black;
+	border-radius: 2px;
+	background-color: #1144ff;
+
+
+
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+@media(max-width: 600px){
+	.c{
+		margin-top: 80px;
+		margin-left: -80px;
+	}
+}
